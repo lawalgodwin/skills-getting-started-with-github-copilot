@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Hide message after 5 seconds
       setTimeout(() => {
         messageDiv.classList.add("hidden");
-      }, 5000);
+      }, 3000);
     } catch (error) {
       messageDiv.textContent = "Failed to sign up. Please try again.";
       messageDiv.className = "error";
